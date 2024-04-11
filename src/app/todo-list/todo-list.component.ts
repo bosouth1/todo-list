@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class TodoListComponent {
 
+  taskDesc: any;
+
+  addTask(task: string) {
+    console.log(this.taskDesc);
+  }
+
 }
