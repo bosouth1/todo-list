@@ -14,7 +14,9 @@
 	<name>home</name>
 	<description>To Do List</description>
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
+		<mongodb-driver-sync.version>5.0.0</mongodb-driver-sync.version>
+        <mongodb-crypt.version>1.8.0</mongodb-crypt.version>
 	</properties>
 	<dependencies>
 		<dependency>

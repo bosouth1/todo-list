@@ -1,11 +1,18 @@
-<h1>Login</h1>
-
-<form (ngSubmit)="login()" #loginForm="ngForm">
+<form (ngSubmit)="submitRegistration()" #loginForm="ngForm">
+    <p>
     <label for="username">Username: </label>
     <input type="text" id="username" name="username" [(ngModel)]="username"><br>
+    </p>
+
+    <p>
     <label for="password">Password: </label>
     <input type="text" id="password" name="password" [(ngModel)]="password"><br>
+    </p>
+
+    <p>
+    <label for="confirmPassword">Confirm Password: </label>
+    <input type="text" id="confirmPassword" name="confirmPassword" [(ngModel)]="confirmPassword"><br>
+    </p>
+
     <input type="submit" value="Submit">
 </form>
-
-<button (click)="navigateToReg()">Register</button>

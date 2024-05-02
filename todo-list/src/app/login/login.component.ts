@@ -24,4 +24,8 @@ export class LoginComponent {
     }
   }
 
+  navigateToReg(): void {
+    this.router.navigate(['/register']);
+  }
+
 }
